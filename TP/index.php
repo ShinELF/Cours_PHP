@@ -32,8 +32,8 @@ $todos = [
             <button class="btn btn-primary btn-small">Valider</button>
             <button class="btn btn-danger btn-small">Supprimer</button>';
 						} else {
-							echo '<li class="todo-item">
-            <span class="todo-name low-opacity">', $values['name'], '</span>
+							echo '<li class="todo-item low-opacity">
+            <span class="todo-name">', $values['name'], '</span>
             <button class="btn btn-primary btn-small">Annuler</button>
             <button class="btn btn-danger btn-small">Supprimer</button>';
 						}
